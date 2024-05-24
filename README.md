@@ -1,4 +1,7 @@
-# swift-async-algorithms
+- name: Upload coverage reports to Codecov
+    uses: codecov/codecov-action@v4.0.1
+    with:
+      token: ${{ secrets.CODECOV_TOKEN }}# swift-async-algorithms
 
 **Swift Async Algorithms** is an open-source package of asynchronous sequence and advanced algorithms that involve concurrency, along with their related types.
 
